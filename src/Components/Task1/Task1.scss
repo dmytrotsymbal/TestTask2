@@ -1,0 +1,16 @@
+.Task1 {
+    background-color: rgb(246, 244, 248);
+    margin-top: -20px;
+
+    h2 {
+        padding-top: 20px;
+    }
+
+    .task1Arrey {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+    }
+}
