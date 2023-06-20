@@ -91,7 +91,8 @@ const Task2 = (props: Props) => {
                     className="title_total_task_2"
                     style={{ textAlign: 'center' }}
                 >
-                    Total price: {cartData.totalPrice * currenscyTotalNumber}
+                    Total price: {cartData.totalPrice * currenscyTotalNumber}{' '}
+                    {currenscyText}
                 </h2>
             </Container>
         </div>
