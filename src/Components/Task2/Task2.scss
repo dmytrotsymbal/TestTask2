@@ -1,0 +1,17 @@
+.Second_task {
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(215, 229, 230);
+    margin-top: -20px;
+
+    .title_Second_task {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .btns_div {
+        width: 260px;
+        margin-left: calc(50% - 260px / 2);
+        margin-bottom: 40px;
+    }
+}

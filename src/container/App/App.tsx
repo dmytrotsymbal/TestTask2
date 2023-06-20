@@ -1,7 +1,9 @@
 import Header from 'container/Header/Header'
 import CssBaseline from '@mui/material/CssBaseline' //для типу відміни стилів, робить базовий ресет
 import Footer from 'container/Footer/Footer'
-import Home from 'pages/Home/Home'
+import { Route, Routes } from 'react-router-dom'
+import Task1 from 'Components/Task1/Task1'
+import Task2 from 'Components/Task2/Task2'
 
 type Props = {}
 
@@ -10,7 +12,11 @@ function App(props: Props) {
         <>
             <CssBaseline />
             <Header />
-            <Home />
+            <Routes>
+                <Route path="/" element={<Task1 />} />
+                <Route path="/task2" element={<Task2 />} />
+            </Routes>
+
             <Footer />
         </>
     )
